@@ -1,0 +1,205 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: final2
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/emirhankilic/Desktop/3.1/mte391/final2/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target final2
+
+
+#############################################
+# Order-only phony target for final2
+
+build cmake_object_order_depends_target_final2: phony || CMakeFiles/final2.dir
+
+build CMakeFiles/final2.dir/mte391_final/main.cpp.o: CXX_COMPILER__final2_Debug /Users/emirhankilic/Desktop/3.1/mte391/final2/mte391_final/main.cpp || cmake_object_order_depends_target_final2
+  DEP_FILE = CMakeFiles/final2.dir/mte391_final/main.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fcolor-diagnostics -F /Library/Frameworks/ -std=gnu++17
+  INCLUDES = -I/usr/local/Cellar/glew/2.2.0_1/include -I/usr/local/Cellar/glm/0.9.9.8/include -I/Library/Frameworks/SDL2.framework/Versions/A/Headers -I/Library/Frameworks/SDL2_image.framework/Versions/A/Headers -I/usr/local/Cellar/glfw-3.3.9.bin.MACOS/include -I/usr/local/Cellar/glad/include -F/Library/Frameworks -isystem /Library/Frameworks/SDL2.framework/Headers
+  OBJECT_DIR = CMakeFiles/final2.dir
+  OBJECT_FILE_DIR = CMakeFiles/final2.dir/mte391_final
+
+build CMakeFiles/final2.dir/mte391_final/Camera.cpp.o: CXX_COMPILER__final2_Debug /Users/emirhankilic/Desktop/3.1/mte391/final2/mte391_final/Camera.cpp || cmake_object_order_depends_target_final2
+  DEP_FILE = CMakeFiles/final2.dir/mte391_final/Camera.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fcolor-diagnostics -F /Library/Frameworks/ -std=gnu++17
+  INCLUDES = -I/usr/local/Cellar/glew/2.2.0_1/include -I/usr/local/Cellar/glm/0.9.9.8/include -I/Library/Frameworks/SDL2.framework/Versions/A/Headers -I/Library/Frameworks/SDL2_image.framework/Versions/A/Headers -I/usr/local/Cellar/glfw-3.3.9.bin.MACOS/include -I/usr/local/Cellar/glad/include -F/Library/Frameworks -isystem /Library/Frameworks/SDL2.framework/Headers
+  OBJECT_DIR = CMakeFiles/final2.dir
+  OBJECT_FILE_DIR = CMakeFiles/final2.dir/mte391_final
+
+build CMakeFiles/final2.dir/mte391_final/Setters_Getters.cpp.o: CXX_COMPILER__final2_Debug /Users/emirhankilic/Desktop/3.1/mte391/final2/mte391_final/Setters_Getters.cpp || cmake_object_order_depends_target_final2
+  DEP_FILE = CMakeFiles/final2.dir/mte391_final/Setters_Getters.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fcolor-diagnostics -F /Library/Frameworks/ -std=gnu++17
+  INCLUDES = -I/usr/local/Cellar/glew/2.2.0_1/include -I/usr/local/Cellar/glm/0.9.9.8/include -I/Library/Frameworks/SDL2.framework/Versions/A/Headers -I/Library/Frameworks/SDL2_image.framework/Versions/A/Headers -I/usr/local/Cellar/glfw-3.3.9.bin.MACOS/include -I/usr/local/Cellar/glad/include -F/Library/Frameworks -isystem /Library/Frameworks/SDL2.framework/Headers
+  OBJECT_DIR = CMakeFiles/final2.dir
+  OBJECT_FILE_DIR = CMakeFiles/final2.dir/mte391_final
+
+build CMakeFiles/final2.dir/mte391_final/MatrixHandler.cpp.o: CXX_COMPILER__final2_Debug /Users/emirhankilic/Desktop/3.1/mte391/final2/mte391_final/MatrixHandler.cpp || cmake_object_order_depends_target_final2
+  DEP_FILE = CMakeFiles/final2.dir/mte391_final/MatrixHandler.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fcolor-diagnostics -F /Library/Frameworks/ -std=gnu++17
+  INCLUDES = -I/usr/local/Cellar/glew/2.2.0_1/include -I/usr/local/Cellar/glm/0.9.9.8/include -I/Library/Frameworks/SDL2.framework/Versions/A/Headers -I/Library/Frameworks/SDL2_image.framework/Versions/A/Headers -I/usr/local/Cellar/glfw-3.3.9.bin.MACOS/include -I/usr/local/Cellar/glad/include -F/Library/Frameworks -isystem /Library/Frameworks/SDL2.framework/Headers
+  OBJECT_DIR = CMakeFiles/final2.dir
+  OBJECT_FILE_DIR = CMakeFiles/final2.dir/mte391_final
+
+build CMakeFiles/final2.dir/mte391_final/CollisionHandler.cpp.o: CXX_COMPILER__final2_Debug /Users/emirhankilic/Desktop/3.1/mte391/final2/mte391_final/CollisionHandler.cpp || cmake_object_order_depends_target_final2
+  DEP_FILE = CMakeFiles/final2.dir/mte391_final/CollisionHandler.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fcolor-diagnostics -F /Library/Frameworks/ -std=gnu++17
+  INCLUDES = -I/usr/local/Cellar/glew/2.2.0_1/include -I/usr/local/Cellar/glm/0.9.9.8/include -I/Library/Frameworks/SDL2.framework/Versions/A/Headers -I/Library/Frameworks/SDL2_image.framework/Versions/A/Headers -I/usr/local/Cellar/glfw-3.3.9.bin.MACOS/include -I/usr/local/Cellar/glad/include -F/Library/Frameworks -isystem /Library/Frameworks/SDL2.framework/Headers
+  OBJECT_DIR = CMakeFiles/final2.dir
+  OBJECT_FILE_DIR = CMakeFiles/final2.dir/mte391_final
+
+build CMakeFiles/final2.dir/mte391_final/WallObjectHandler.cpp.o: CXX_COMPILER__final2_Debug /Users/emirhankilic/Desktop/3.1/mte391/final2/mte391_final/WallObjectHandler.cpp || cmake_object_order_depends_target_final2
+  DEP_FILE = CMakeFiles/final2.dir/mte391_final/WallObjectHandler.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fcolor-diagnostics -F /Library/Frameworks/ -std=gnu++17
+  INCLUDES = -I/usr/local/Cellar/glew/2.2.0_1/include -I/usr/local/Cellar/glm/0.9.9.8/include -I/Library/Frameworks/SDL2.framework/Versions/A/Headers -I/Library/Frameworks/SDL2_image.framework/Versions/A/Headers -I/usr/local/Cellar/glfw-3.3.9.bin.MACOS/include -I/usr/local/Cellar/glad/include -F/Library/Frameworks -isystem /Library/Frameworks/SDL2.framework/Headers
+  OBJECT_DIR = CMakeFiles/final2.dir
+  OBJECT_FILE_DIR = CMakeFiles/final2.dir/mte391_final
+
+build CMakeFiles/final2.dir/mte391_final/ShaderManager.cpp.o: CXX_COMPILER__final2_Debug /Users/emirhankilic/Desktop/3.1/mte391/final2/mte391_final/ShaderManager.cpp || cmake_object_order_depends_target_final2
+  DEP_FILE = CMakeFiles/final2.dir/mte391_final/ShaderManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fcolor-diagnostics -F /Library/Frameworks/ -std=gnu++17
+  INCLUDES = -I/usr/local/Cellar/glew/2.2.0_1/include -I/usr/local/Cellar/glm/0.9.9.8/include -I/Library/Frameworks/SDL2.framework/Versions/A/Headers -I/Library/Frameworks/SDL2_image.framework/Versions/A/Headers -I/usr/local/Cellar/glfw-3.3.9.bin.MACOS/include -I/usr/local/Cellar/glad/include -F/Library/Frameworks -isystem /Library/Frameworks/SDL2.framework/Headers
+  OBJECT_DIR = CMakeFiles/final2.dir
+  OBJECT_FILE_DIR = CMakeFiles/final2.dir/mte391_final
+
+build CMakeFiles/final2.dir/mte391_final/BallObjectHandler.cpp.o: CXX_COMPILER__final2_Debug /Users/emirhankilic/Desktop/3.1/mte391/final2/mte391_final/BallObjectHandler.cpp || cmake_object_order_depends_target_final2
+  DEP_FILE = CMakeFiles/final2.dir/mte391_final/BallObjectHandler.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fcolor-diagnostics -F /Library/Frameworks/ -std=gnu++17
+  INCLUDES = -I/usr/local/Cellar/glew/2.2.0_1/include -I/usr/local/Cellar/glm/0.9.9.8/include -I/Library/Frameworks/SDL2.framework/Versions/A/Headers -I/Library/Frameworks/SDL2_image.framework/Versions/A/Headers -I/usr/local/Cellar/glfw-3.3.9.bin.MACOS/include -I/usr/local/Cellar/glad/include -F/Library/Frameworks -isystem /Library/Frameworks/SDL2.framework/Headers
+  OBJECT_DIR = CMakeFiles/final2.dir
+  OBJECT_FILE_DIR = CMakeFiles/final2.dir/mte391_final
+
+build CMakeFiles/final2.dir/mte391_final/TextureManager.cpp.o: CXX_COMPILER__final2_Debug /Users/emirhankilic/Desktop/3.1/mte391/final2/mte391_final/TextureManager.cpp || cmake_object_order_depends_target_final2
+  DEP_FILE = CMakeFiles/final2.dir/mte391_final/TextureManager.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fcolor-diagnostics -F /Library/Frameworks/ -std=gnu++17
+  INCLUDES = -I/usr/local/Cellar/glew/2.2.0_1/include -I/usr/local/Cellar/glm/0.9.9.8/include -I/Library/Frameworks/SDL2.framework/Versions/A/Headers -I/Library/Frameworks/SDL2_image.framework/Versions/A/Headers -I/usr/local/Cellar/glfw-3.3.9.bin.MACOS/include -I/usr/local/Cellar/glad/include -F/Library/Frameworks -isystem /Library/Frameworks/SDL2.framework/Headers
+  OBJECT_DIR = CMakeFiles/final2.dir
+  OBJECT_FILE_DIR = CMakeFiles/final2.dir/mte391_final
+
+build CMakeFiles/final2.dir/mte391_final/GLFW_Handler.cpp.o: CXX_COMPILER__final2_Debug /Users/emirhankilic/Desktop/3.1/mte391/final2/mte391_final/GLFW_Handler.cpp || cmake_object_order_depends_target_final2
+  DEP_FILE = CMakeFiles/final2.dir/mte391_final/GLFW_Handler.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fcolor-diagnostics -F /Library/Frameworks/ -std=gnu++17
+  INCLUDES = -I/usr/local/Cellar/glew/2.2.0_1/include -I/usr/local/Cellar/glm/0.9.9.8/include -I/Library/Frameworks/SDL2.framework/Versions/A/Headers -I/Library/Frameworks/SDL2_image.framework/Versions/A/Headers -I/usr/local/Cellar/glfw-3.3.9.bin.MACOS/include -I/usr/local/Cellar/glad/include -F/Library/Frameworks -isystem /Library/Frameworks/SDL2.framework/Headers
+  OBJECT_DIR = CMakeFiles/final2.dir
+  OBJECT_FILE_DIR = CMakeFiles/final2.dir/mte391_final
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target final2
+
+
+#############################################
+# Link the executable final2
+
+build final2: CXX_EXECUTABLE_LINKER__final2_Debug CMakeFiles/final2.dir/mte391_final/main.cpp.o CMakeFiles/final2.dir/mte391_final/Camera.cpp.o CMakeFiles/final2.dir/mte391_final/Setters_Getters.cpp.o CMakeFiles/final2.dir/mte391_final/MatrixHandler.cpp.o CMakeFiles/final2.dir/mte391_final/CollisionHandler.cpp.o CMakeFiles/final2.dir/mte391_final/WallObjectHandler.cpp.o CMakeFiles/final2.dir/mte391_final/ShaderManager.cpp.o CMakeFiles/final2.dir/mte391_final/BallObjectHandler.cpp.o CMakeFiles/final2.dir/mte391_final/TextureManager.cpp.o CMakeFiles/final2.dir/mte391_final/GLFW_Handler.cpp.o | /Library/Frameworks/SDL2.framework/Versions/A/SDL2 /Library/Frameworks/SDL2_image.framework/Versions/A/SDL2_image /usr/local/Cellar/glew/2.2.0_1/lib/libGLEW.2.2.0.dylib /usr/local/Cellar/glfw-3.3.9.bin.MACOS/lib-universal/libglfw.3.dylib
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  LINK_FLAGS = -F /Library/Frameworks/ -framework SDL2
+  LINK_LIBRARIES = -Wl,-rpath,/Library/Frameworks -Wl,-rpath,/usr/local/Cellar/glfw-3.3.9.bin.MACOS/lib-universal  -Xlinker -framework -Xlinker OpenGL  -Xlinker -framework -Xlinker OpenGL  /Library/Frameworks/SDL2.framework/Versions/A/SDL2  /Library/Frameworks/SDL2_image.framework/Versions/A/SDL2_image  /usr/local/Cellar/glew/2.2.0_1/lib/libGLEW.2.2.0.dylib  /usr/local/Cellar/glfw-3.3.9.bin.MACOS/lib-universal/libglfw.3.dylib
+  OBJECT_DIR = CMakeFiles/final2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = final2
+  TARGET_PDB = final2.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/emirhankilic/Desktop/3.1/mte391/final2/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/emirhankilic/Desktop/3.1/mte391/final2/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/emirhankilic/Desktop/3.1/mte391/final2 -B/Users/emirhankilic/Desktop/3.1/mte391/final2/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/emirhankilic/Desktop/3.1/mte391/final2/cmake-build-debug
+
+build all: phony final2
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FeatureSummary.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FindGLEW.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FindOpenGL.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Library/Frameworks/SDL2.framework/Resources/CMake/sdl2-config-version.cmake /Library/Frameworks/SDL2.framework/Resources/CMake/sdl2-config.cmake /Library/Frameworks/SDL2_image.framework/Resources/CMake/sdl2_image-config-version.cmake /Library/Frameworks/SDL2_image.framework/Resources/CMake/sdl2_image-config.cmake /Users/emirhankilic/Desktop/3.1/mte391/final2/CMakeLists.txt /usr/local/lib/cmake/glew/CopyImportedTargetProperties.cmake /usr/local/lib/cmake/glew/glew-config.cmake /usr/local/lib/cmake/glew/glew-targets-release.cmake /usr/local/lib/cmake/glew/glew-targets.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FeatureSummary.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FindGLEW.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FindOpenGL.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Library/Frameworks/SDL2.framework/Resources/CMake/sdl2-config-version.cmake /Library/Frameworks/SDL2.framework/Resources/CMake/sdl2-config.cmake /Library/Frameworks/SDL2_image.framework/Resources/CMake/sdl2_image-config-version.cmake /Library/Frameworks/SDL2_image.framework/Resources/CMake/sdl2_image-config.cmake /Users/emirhankilic/Desktop/3.1/mte391/final2/CMakeLists.txt /usr/local/lib/cmake/glew/CopyImportedTargetProperties.cmake /usr/local/lib/cmake/glew/glew-config.cmake /usr/local/lib/cmake/glew/glew-targets-release.cmake /usr/local/lib/cmake/glew/glew-targets.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
