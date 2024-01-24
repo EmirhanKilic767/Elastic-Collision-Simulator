@@ -7,6 +7,4 @@ GLEW
 GLFW
 glm
 
-Made by Emirhan Kılıç-Emir Saltekin-Sude Erva Apak
-
-
+Made by Emirhan Kılıç-Emir Saltekin-Sude Erva Apak.
