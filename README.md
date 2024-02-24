@@ -1,4 +1,4 @@
-# MTE391_FINAL_PROJECT
+Ellastic Collision Physic Simulator
 
 REQUIRED LIBRARIES
 SDL2
@@ -7,4 +7,3 @@ GLEW
 GLFW
 glm
 
-Made by Emirhan Kılıç-Emir Saltekin-Sude Erva Apak.
